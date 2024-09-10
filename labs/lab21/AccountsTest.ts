@@ -4,10 +4,10 @@ import SavingAccount from "./SavingsAccount";
 
 
 
-// let savingAccount = new SavingAccount(100);
-// savingAccount.deposit(500);
-// savingAccount.withdraw(200);
-// console.log(`Saving balance : ${savingAccount.getBalance()}`);
+let savingAccount = new SavingAccount(100);
+savingAccount.deposit(500);
+savingAccount.withdraw(200);
+console.log(`Saving balance : ${savingAccount.getBalance()}`);
 
 let checkingAccount= new CheckingAccount(100);
 checkingAccount.deposit(100);
