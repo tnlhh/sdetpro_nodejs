@@ -3,7 +3,6 @@ import BankingAccounts from "./BankingAccounts";
 export default class CheckingAccount extends BankingAccounts {
 
     overdraftLimit: number = 50;
-    accountBalance: number = 0;
 
     constructor(balance: number) {
         super();

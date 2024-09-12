@@ -2,9 +2,6 @@ import BankingAccounts from "./BankingAccounts";
 
 export default class SavingAccount extends BankingAccounts {
 
-    mininumBalance: number = 0;
-    accountBalance: number = 0;
-
     constructor(balance: number) {
         super();
         if (balance <= 0)
